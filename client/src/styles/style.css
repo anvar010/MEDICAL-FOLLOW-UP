@@ -1,0 +1,1162 @@
+/* Homepage */
+container
+html, body {
+  margin: 0;
+  padding: 0;
+ 
+}
+
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; 
+  width: 100vw; 
+  background: url('/medical.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.home-content {
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5); 
+  border-radius: 10px;
+}
+
+.home-title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.home-description {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.home-button {
+  font-size: 1.2rem;
+  padding: 20px 20px;
+  color: #fff;
+  background-color: #007bff;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  margin-left: 20px;
+}
+.home-button1 {
+ 
+  padding: 40px 80px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
+/* Prescription */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  
+}
+
+body {
+  background-color: #F0F0F0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container1 {
+  background-color: #2b64b5;
+  width: 700px; /* Adjust width as needed */
+  margin: 0 auto;
+  margin-top: 200px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-form1 {
+  background-color: #0984ff;
+  padding: 20px;
+  border-radius: 10px 10px 0 0; 
+  color: white;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+}
+
+.student-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(5, 1fr);
+  padding: 30px 10px 30px 10px;
+}
+
+.field-form {
+  display: flex;
+  padding: 15px;
+}
+
+.field-form input[type="text"] {
+  flex: 1;
+  padding-left: 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  word-spacing: 2px;
+}
+
+.field-form input[type="text"]:focus {
+  border: 2px solid #2e5617;
+}
+
+/*---GENDER FIELD---*/
+.gender-field {
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.gender-field div {
+  border: none;
+  padding: 6px 15px;
+  margin-right: 20px;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.gender-field div span {
+  margin-right: 10px;
+  font-size: 0.9em;
+}
+
+.gender-field div input {
+  transform: translateY(2px);
+}
+
+/*---BIRTHDAY FIELD---*/
+.birthday-field {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.birthday-field span {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+select {
+  height: 2.6em;
+  padding: 0 25px 0 5px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.birthday-field > select {
+  padding: 0 10px 0 5px;
+}
+
+/* ADDRESS */
+.address {
+  padding: 10px 15px 0 15px;
+}
+
+textarea {
+  flex: 1;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  resize: none;
+  padding: 10px;
+}
+
+/*--YEAR/SECTION--*/
+.year-section {
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/*--BUTTON--*/
+.button {
+  display: flex;
+  justify-content: flex-end;
+  padding: 30px 15px 0 0;
+}
+
+.add {
+  padding: 0 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4f81b3;
+  color: white;
+  letter-spacing: 2px;
+}
+
+/*--LAYOUT ARRANGEMENT(GRID)--*/
+.field-form:nth-child(1) {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.field-form:nth-child(2) {
+  grid-column: 1/2;
+  grid-row: 1/2;  
+}
+
+.field-form:nth-child(3) {
+  grid-column: 1/2;
+  grid-row: 2/3;   
+}
+
+.field-form:nth-child(4) {
+  grid-column: 1/2;
+  grid-row: 3/4;  
+}
+
+.field-form:nth-child(5) {
+  grid-column: 1/2;
+  grid-row: 4/5;  
+}
+
+.field-form:nth-child(6) {
+  grid-column: 1/2;
+  grid-row: 5/6;  
+}
+
+.field-form:nth-child(7) {
+  grid-column: 2/3;
+  grid-row: 2/3;  
+}
+
+.field-form:nth-child(8) {
+  grid-column: 2/3;
+  grid-row: 3/4;   
+}
+
+.field-form:nth-child(9) {
+  grid-column: 2/3;
+  grid-row: 4/5;  
+}
+
+.field-form:nth-child(10) {
+  grid-column: 2/3;
+  grid-row: 5/6;  
+}
+
+@media (max-width: 750px) {
+  .container {
+    width: 600px;
+  }
+
+  .title-form {
+    padding: 15px 40px;
+  }
+
+  .student-form {
+    padding: 30px 10px 20px 10px;
+  }
+
+  select {
+    padding: 0 15px 0 5px;
+  }
+
+  textarea {
+    padding: 5px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 400px;
+  }
+
+  .title-form {
+    padding: 10px 30px;
+  }
+
+  .student-form {
+    padding: 25px 10px 20px 10px;
+  }
+
+  input[type="text"] {
+    height: 2.5em;
+    font-size: 0.9em;
+  }
+
+  select {
+    margin: 0 4px;
+  }
+
+  textarea {
+    height: 5em;
+  }
+}
+
+@media (max-width: 440px) {
+  .container {
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+  }
+
+  .title-form {
+    padding: 10px 30px;
+    border-radius: 0;
+  }
+
+  .student-form {
+    padding: 25px 10px 20px 10px;
+  }
+
+  input[type="text"] {
+    height: 2.5em;
+    font-size: 0.9em;
+  }
+
+  select {
+    margin: 0 4px;
+  }
+
+  textarea {
+    height: 5em;
+  }
+}
+
+
+
+
+
+
+/* Profilelist */
+
+
+/* Colors */
+:root {
+  --primary-color: #1f528c; /* Light Blue */
+  --secondary-color: #50E3C2; /* Teal */
+  --background-color: #F5F7F9; /* Light Grey */
+ 
+}
+
+
+/* html {
+  
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+} */
+
+/* Profile Detail */
+.profile-detail {
+  /* max-width: var(--card-width); */
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  width: 800px;
+}
+
+.profile-detail__title {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+  margin-top: 200px;
+}
+
+.profile-detail__info {
+  margin-bottom: 20px;
+  color: #1d1616;
+}
+
+.profile-detail__info p {
+  margin: 8px 0;
+}
+
+.profile-detail__section-title {
+  font-size: 25px;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+/* Prescriptions Table */
+.prescriptions-table {
+  width:700px;
+  border-collapse: collapse;
+  color: #1c1717;
+}
+
+.prescriptions-table th, .prescriptions-table td {
+  border: 1px solid black;
+  padding: 12px;
+  text-align: left;
+}
+
+.prescriptions-table th {
+  background-color: var(--primary-color);
+  color: #ece6e6;
+  font-weight: 700;
+}
+
+.prescriptions-table tr:nth-child(even) {
+  background-color: #f7f3f3;
+}
+
+/* Adherence List */
+.adherence-list,
+.side-effects-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  color :#1c1717
+}
+.norecord{
+  color: #1c1717;
+}
+
+.adherence-list__item,
+.side-effects-list__item {
+  border-bottom: 1px solid #fcf9f9;
+  padding: 10px 0;
+}
+
+.adherence-list__item:last-child,
+.side-effects-list__item:last-child {
+  border-bottom: none;
+}
+.profile-detail__section-title p {
+  color: black;
+  margin: 0;
+}
+
+/* Loading */
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+  color: #1c1717;
+}
+
+.spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-top: 4px solid var(--primary-color);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+ 
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+
+/* Profiltable */
+
+ /* Profiles Container */
+.profiles-container {
+  margin-top: 150px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  width: 700px;
+}
+
+/* Header */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header-container h2 {
+  margin: 0;
+}
+
+.add-profile-button .form-button {
+  background-color: #007bff;
+  color: rgb(246, 241, 241);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-profile-button .form-button:hover {
+  background-color: #0056b3;
+}
+
+/* Search Input */
+.search-container {
+  margin-bottom: 20px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Loading Spinner */
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.spinner {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #007bff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Table Styles */
+.profiles-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  color: #1c1717;
+}
+
+.profiles-table th,
+.profiles-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.profiles-table th {
+  background-color: #007bff;
+  color: white;
+}
+
+.profiles-table tbody tr:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+/* Pagination */
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination-button {
+  background-color: #007bff;
+  color: rgb(248, 248, 248);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.pagination-button:hover {
+  background-color: #0056b3;
+}
+
+.pagination-info {
+  font-size: 16px;
+  margin: 0 10px;
+  color: #000000;
+}
+
+
+/* Patient History */
+
+.search-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.patient-details {
+  margin-top: 20px;
+}
+
+.patient-detail {
+  background-color: #1c1717;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.patient-detail p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+/* Media Query for Tablets and Larger Screens */
+@media (min-width: 768px) {
+  .search-container {
+    max-width: 800px;
+  }
+
+  input, button {
+    font-size: 18px;
+  }
+
+  .patient-detail p {
+    font-size: 18px;
+  }
+}
+
+/* Media Query for Desktop Screens */
+@media (min-width: 1024px) {
+  .search-container {
+    max-width: 1000px;
+  }
+
+  input, button {
+    font-size: 20px;
+  }
+
+  .patient-detail p {
+    font-size: 20px;
+  }
+}
+
+/* AddProfile */
+
+
+.profile-form-container {
+ min-width:900px; 
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f1eaea; 
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(8, 8, 8, 0.1); 
+  margin-top: 100px;
+}
+
+.profile-form-container h2 {
+  color: #007bff; 
+  font-size: 1.75rem; 
+  margin-bottom: 20px;
+}
+
+/* Styles for each form group */
+.profile-form-group {
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.profile-form-group label {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #333; 
+}
+.drop{
+  color: #eff1f4;
+}
+
+.profile-form-group input,
+.profile-form-group select,
+.profile-form-group textarea {
+  width: 100%; 
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+.profile-form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+
+
+
+.profile-form-group input[type="number"]::-webkit-inner-spin-button,
+.profile-form-group input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Focus styles for inputs, selects, and textareas */
+.profile-form-group input:focus,
+.profile-form-group select:focus,
+.profile-form-group textarea:focus {
+  border-color: #007bff; /* Change to a blue border on focus */
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Subtle blue glow on focus */
+}
+
+/* Button styles */
+.profile-form-button {
+  background-color: #007bff; /* Blue background */
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.profile-form-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Error message styles */
+.profile-error-message {
+  color: #dc3545; /* Red color for error messages */
+  margin-top: 10px;
+  font-size: 0.875rem;
+}
+
+/* spinner */
+.loading-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.spinner {
+  border: 4px solid #f3f3f3; /* Light grey */
+  border-top: 4px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 2s linear infinite;
+  margin: 0 auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* PatientSearch */
+/* Container for the whole component */
+.patient-history-container {
+ min-width: 800px; /* Increase width as needed */
+  margin: 0 auto; /* Center align the container */
+  padding: 20px;
+  background-color: #f9f9f9; /* Light background for contrast */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Heading style */
+.patient-history-heading {
+  font-size: 1.5rem;
+  color: #333; /* Darker color for better readability */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Style for the input field */
+.patient-history-input {
+  width: 97%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+/* Error message style */
+.patient-history-error {
+  color: #d9534f; /* Red color for error messages */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Container for patient details */
+.patient-history-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Space between items */
+}
+
+/* Style for each patient detail */
+.patient-history-detail {
+  background-color: #1d1616; /* White background for each detail block */
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+
+/* FeedBackForm */
+
+.wrapper1 {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 400px;
+  width: 100%;
+  color: #000000;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #333333; /* Darker text color for better readability */
+}
+
+.wrapper .input_field {
+  margin-bottom: 15px;
+}
+
+.wrapper .input_field label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #555555;
+}
+
+.wrapper .input_field input[type="text"],
+.wrapper .input_field input[type="email"],
+.wrapper .input_field textarea {
+  border: 1px solid #66dbff;
+  border-radius: 5px;
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+.wrapper .input_field input[type="checkbox"] {
+  margin-right: 10px;
+  
+}
+
+.wrapper textarea {
+  resize: vertical;
+  min-height: 100px; 
+}
+
+.wrapper .btn input[type="submit"] {
+  border: none;
+  margin-top: 15px;
+  padding: 12px;
+  text-align: center;
+  width: 100%;
+  background: #007bff; /* Bootstrap primary color */
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.wrapper .btn input[type="submit"]:hover {
+  background: #0056b3; 
+}
+
+#error_message {
+  margin-bottom: 20px;
+  background: #fe8b8e;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #ffffff;
+  border-radius: 4px;
+  transition: all 0.5s ease;
+}
+
+/* prescriptionsList */
+
+.box {
+  margin-top: 150px;
+  width: 700px;
+  /* margin: 0 auto; */
+  padding: 30px;
+  background-color: #2e96d2;
+  border: 3px solid #000000;
+  border-radius: 15px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 24px;
+  color: #000000;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center; /* Adjust alignment */
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 18px;
+  color: #000000;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 5px;
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  /* border: 1.5px solid #000000; */
+  border-radius: 15px;
+  padding: 20px;
+}
+
+li {
+  color: #000000;
+  margin-bottom: 10px;
+  font-family: Arial, sans-serif;
+  padding: 3px;
+}
+
+
+/* AdherenceForm */
+
+/* styles/formStyles.css */
+
+/* Form Header Styles */
+/* styles/formStyles.css */
+
+/* Form Header Styles */
+.form-header-container {
+  margin: 0 0 20px 0; 
+}
+.form-header-text {
+  font-size: 90%;
+  color: #100b0b;
+}
+.form-header-title {
+  margin: 0 0 5px 0;
+}
+
+/* Form Layout Styles */
+.form-section {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 10px 0;
+  color: #000000;
+}
+.form-section fieldset {
+  border: 0;
+  padding: 0;
+}
+.form-section > div {
+  display: flex;
+  margin: 0 0 5px 0;
+}
+
+/* Label and Input Styles */
+.form-label {
+  flex: 0 0 25%;
+  padding-right: 10px;
+  font-size: 90%;
+}
+.form-input-wrapper {
+  flex: 1;
+}
+
+input[type=text],
+input[type=email],
+input[type=url],
+input[type=password],
+textarea {
+  width: 100%;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+input[type=text],
+input[type=email],
+input[type=url],
+input[type=password] {
+  width: 100%;
+}
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=url]:focus,
+input[type=password]:focus,
+textarea:focus {
+  outline: 0;
+  border-color: #4697e4;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  .form-section {
+    margin: 0 0 15px 0; 
+  }
+  .form-section > div {
+    flex-direction: column;
+  }
+  .form-label {
+    width: 100%;
+    margin: 0 0 5px 0;
+  }
+  .form-input-wrapper {
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .form-label {
+    text-align: right;
+  }
+}
+/* Button Styles */
+.form-button1 {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff; /* Button background color */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-button1:hover {
+  background-color: #0056b3; /* Darker color on hover */
+}
+
+
+/* sideEffect */
+/* Form Container */
+.side-effect-form {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  color: #000000;
+}
+
+/* Form Header */
+.side-effect-form header {
+  margin-bottom: 20px;
+}
+
+.side-effect-form header h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.side-effect-form header p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Form Layout */
+.side-effect-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.side-effect-form input[type="text"],
+.side-effect-form input[type="date"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.side-effect-form input[type="text"]:focus,
+.side-effect-form input[type="date"]:focus {
+  outline: none;
+  border-color: #4697e4;
+}
+
+.side-effect-form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff; /* Button background color */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.side-effect-form button:hover {
+  background-color: #0056b3; /* Darker color on hover */
+}
+

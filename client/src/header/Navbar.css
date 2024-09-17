@@ -1,0 +1,84 @@
+/* src/components/Navbar.css */
+.navbar {
+    background-color: #007bff;
+    /* padding: 10px 20px; */
+    color: #fff;
+    position: fixed; /* Fixes the navbar at the top */
+    top: 0; /* Aligns it at the top */
+    left: 0;
+    width: 100%;
+    /* z-index: 1000; */
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .navbar-logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-menu li {
+    display: inline;
+  }
+  
+  .navbar-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-menu a:hover {
+    color: #e4dcdc;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .navbar-menu {
+      flex-direction: column;
+      display: none;
+      position: absolute;
+      /* top: 60px; */
+      right: 0;
+      background-color: #007bff;
+      width: 200px;
+      border-radius: 8px;
+    }
+  
+    .navbar-menu.active {
+      display: flex;
+    }
+  
+    .navbar-menu li {
+      margin: 10px 0;
+    }
+  
+    .navbar-container {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    /* .navbar-logo {
+      margin-bottom: 10px;
+    } */
+  }
+  
+  /* Add padding to content below navbar to prevent overlap */
+  /* body {
+    padding-top: 40px; 
+  } */
+  
